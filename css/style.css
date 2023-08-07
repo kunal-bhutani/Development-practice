@@ -92,12 +92,18 @@ body
     background: url(../images/home.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100vh;
 }
 .home-content
 {
     max-width: 60rem;
     /* padding-top: 10%; */
 }
+
+.home-content span{
+    color: var(--text-color);
+}
+
 
 .home-content h3 {
     font-size: 3.45rem;
@@ -201,8 +207,8 @@ body
 
 .home-sic
 {
-    position: absolute;
-    bottom: 3rem;
+    position: relative;
+    bottom: -4rem;
     width: 200px;
     display: flex;
     justify-content: space-between;
@@ -680,7 +686,7 @@ span
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2rem 9%;
+    padding: 1rem 9%;
     background-color: var(--second-bg-color);
 }
 
@@ -723,7 +729,7 @@ span
 
 
 .footer-iconTop a i{
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: var(--bg-color);
     transition: .3s;
 }
